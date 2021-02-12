@@ -9,6 +9,7 @@ h1 {
  * {
 	box-sizing: border-box;
 	padding-left: 15px;
+	padding-right: 15px; 
 }
 
 .all > div {
@@ -63,7 +64,7 @@ p {
 
 @media (min-width: 992px) {
 	.all > div {
-		width: 31%
+		width: 33%
 
 	}
 
@@ -71,12 +72,12 @@ p {
 
 @media (min-width: 768px) and (max-width: 991px) {
 	#section1, #section2 {
-		width: 48%;
+		width: 50%;
 
 	}
 	#section3 {
 		margin-top: 25px;
-		width: 97%;
+		width: 101%;
 		left: 0;
 	}
 
