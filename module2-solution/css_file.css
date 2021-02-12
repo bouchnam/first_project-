@@ -6,7 +6,7 @@ h1 {
 	text-align: center;
 	font-size: 50px;
 }
- * {
+* {
 	box-sizing: border-box;
 	padding-left: 15px;
 	padding-right: 15px; 
@@ -42,19 +42,25 @@ h2 {
 	top: -20px;
 	right:0px;
 	border: 1px solid #000000;
-	padding-right: 10px;
-	margin-bottom: 5px;
+
 }
 
 #section1 > h2 {
 	background-color: #FF8C00;
+	padding-right: 10px;
 
 }
 #section2 > h2 {
 	background-color: #FF00FF;
+	padding-right: 27px;
+	padding-left: 27px;
+	
 }
 #section3 > h2 {
 	background-color: #00FFFF;
+	padding-right: 22px;
+	padding-left: 22px;
+	
 }
 
 p {
@@ -67,6 +73,7 @@ p {
 		width: 33%
 
 	}
+
 
 }
 
