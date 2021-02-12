@@ -1,0 +1,93 @@
+body {
+	background-image: url(foo.jpg);
+}
+h1 {
+	color: #ff0000;
+	text-align: center;
+	font-size: 50px;
+}
+ * {
+	box-sizing: border-box;
+	padding-left: 15px;
+}
+
+.all > div {
+	float: left;
+	border: 2px solid #000000;
+	padding: 10px;
+	background-color: #70726e;
+}
+	
+
+#section1 {
+	position: relative;
+
+}
+
+#section2 {
+	position: relative;
+	left: 10px;
+
+
+}
+
+#section3 {
+	position: relative;
+	left: 20px;
+}
+
+h2 {
+	position: absolute;
+	top: -20px;
+	right:0px;
+	border: 1px solid #000000;
+	padding-right: 10px;
+	margin-bottom: 5px;
+}
+
+#section1 > h2 {
+	background-color: #FF8C00;
+
+}
+#section2 > h2 {
+	background-color: #FF00FF;
+}
+#section3 > h2 {
+	background-color: #00FFFF;
+}
+
+p {
+	margin-top: 25px;
+
+}
+
+@media (min-width: 992px) {
+	.all > div {
+		width: 31%
+
+	}
+
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+	#section1, #section2 {
+		width: 48%;
+
+	}
+	#section3 {
+		margin-top: 25px;
+		width: 97%;
+		left: 0;
+	}
+
+}
+
+@media (max-width: 767px) {
+	#section2, #section3 {
+		margin-top: 25px;
+		clear: both;
+		left: 0
+	}
+
+}
+
